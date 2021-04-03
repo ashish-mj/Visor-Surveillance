@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>Visor Surveillance</title>
+    <link rel="stylesheet" href="../static/css/normalize.css">
+    <link rel="stylesheet" href="../static/css/grid.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,300i,400,700" rel="stylesheet">
+    <link rel="stylesheet" href="../static/css/ionicons.min.css">
+    <link rel="stylesheet" href="../static/css/home.css">
+    <link rel="icon" href="../static/images/mask.png" type="image/jpg">
+    
+</head>
+
+<body>
+
+    <header>
+         <img src="../static/images/mask.png" alt="Mask Detect logo" class="logo">
+         <img src="../static/images/virus.png" alt="virus logo" class="logo virus">
+         <h1>Visor Surveillance</h1>
+
+    </header>
+    <div class="video-box">
+        <div class="row">
+		    <div class="col span-1-of-6">
+
+		     <div class="row instruction">
+		     <img src="../static/images/wear_mask.png" alt="Wear Mask" class="instruction_logo">
+		     <h3>Wear Mask</h3>
+		     </div>
+
+		     <div class="row instruction">
+		     <img src="../static/images/hand-sanitizer.png" alt="Hand Sanitizer" class="instruction_logo">
+		     <h3>Use Sanitizer</h3>
+		     </div>
+
+		     <div class="row instruction">
+		     <img src="../static/images/social-distancing.png" alt="Social Distancing" class="instruction_logo">
+		     <h3 class="refine">Social Distancing</h3>
+		     </div>
+	          
+		    </div>
+		    
+		    <div class="col span-4-of-6">
+		       <div class="video">
+		            <img src="{{ url_for('video_feed') }}" >
+		        </div>
+		    </div>
+
+	        <div class="col span-1-of-6">
+	            
+	            <div class="row instruction">
+		     <img src="../static/images/washing-hands.png" alt="Wash Hands" class="instruction_logo">
+		     <h3>Wash Hands</h3>
+		     </div>
+
+		     <div class="row instruction">
+		     <img src="../static/images/avoid-crowds.png" alt="Avoid Crowd" class="instruction_logo">
+		     <h3>Avoid Crowd</h3>
+		     </div>
+
+		     <div class="row instruction">
+		     <img src="../static/images/medical-app.png" alt="Wear Mask" class="instruction_logo">
+		     <h3 class="refine">Use Arogya Setu </h3>
+
+		    </div>
+        </div>
+    </div>
+
+
+    <footer class="footer-section">
+        <div class="names">
+            <ul>
+                <li>Aditya Sumanth</li>
+                <li>Akshay Dhage</li>
+                <li>Ashish M J</li>
+                <li>Pavan Hatwar</li>
+            </ul>
+        </div>
+    </footer>
+
+</body>
+</html>
