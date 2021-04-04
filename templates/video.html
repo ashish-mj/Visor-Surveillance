@@ -1,0 +1,8 @@
+{% extends 'template.html'%}
+{%block content%}
+<img src="{{ url_for('video_feed') }}" >
+{%endblock%}
+
+{% block button%}
+	<a class="btn-full" href="{{url_for('video')}}">Stop</a>
+{% endblock %}
