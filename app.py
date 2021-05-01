@@ -26,7 +26,12 @@ app.config['MAIL_USE_SSL']=True
 
 mail = Mail(app)
 
-
+data = {3:{"Name":"Akshay Kumar Dhage","Phone":9916360593,"Email":"akshaydhage35@gmail.com","Violation":None},
+        2:{"Name":"Ashish M J","Phone":8147852831,"Email":"ashm.jagadeesh@gmail.com","Violation":None},
+        4:{"Name":"Pavan Hatwar","Phone":9480260700,"Email":"pavanhatwar65@gmail.com","Violation":None},
+        1:{"Name":"Aditya Sumanth","Phone":9986095915,"Email":"aditya97sumanth@gmail.com","Violation":None},
+        0:None
+        }
 
 
 headers = {'authorization': "icXUyDr0BRtFSHThjq7I68dpZNMzsklu54mO2xKfWwnYPboGVv9XzvqsGhV45urBHyiAOZbm2lCnDNMj",'Content-Type': "application/x-www-form-urlencoded",'Cache-Control': "no-cache",}
